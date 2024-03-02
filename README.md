@@ -9,10 +9,10 @@ view group_vars/all
 #### Host Inventory Sample
 ```
 [all]  
-stage2cppxyz
+192.168.0.97
 
 [all:vars]  
-ansible_python_interpreter=/x/opt/pp/bin/python  
+ansible_python_interpreter=/usr/bin/python3  
 ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
 ```
 
